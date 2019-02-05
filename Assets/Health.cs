@@ -6,23 +6,13 @@ public class Health : MonoBehaviour
 {
     [SerializeField] int health = 100;
 
-    // Start is called before the first frame update
-    void Start()
+    public void DealDamage(int damage)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        health -= damage;
         if (health <= 0)
         {
             Destroy(gameObject);
         }
     }
 
-    public void DealDamage(int damage)
-    {
-        health -= damage;
-    }
 }

@@ -26,12 +26,12 @@ public class Projectile : MonoBehaviour
         transform.position += Vector3.right * projectileSpeed * Time.deltaTime;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D OtherCollider)
     {
-        Health attacker = collision.GetComponent<Health>();
-        if (attacker != null)
+        Health health = OtherCollider.GetComponent<Health>();
+        if (health != null)
         {
-            attacker.DealDamage(projectileDamage);
+            health.DealDamage(projectileDamage);
         }
     }
 }
