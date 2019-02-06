@@ -9,6 +9,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] float rotateSpeed = 900f;
     [SerializeField] int projectileDamage = 50;
 
+    [SerializeField] bool spike = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -29,9 +31,19 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D OtherCollider)
     {
         Health health = OtherCollider.GetComponent<Health>();
-        if (health != null)
+        Attacker attacker = OtherCollider.GetComponent<Attacker>();
+
+        if (health && attacker)
         {
             health.DealDamage(projectileDamage);
+            if (!spike)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject, 3f);
+            }
         }
     }
 }
