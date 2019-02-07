@@ -182,12 +182,12 @@ PrefabInstance:
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
@@ -367,12 +367,12 @@ PrefabInstance:
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
@@ -516,12 +516,12 @@ PrefabInstance:
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
@@ -759,6 +759,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
+        type: 3}
+      propertyPath: minSpawnDelay
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
+        type: 3}
+      propertyPath: maxSpawnDelay
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
@@ -1056,12 +1066,12 @@ PrefabInstance:
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
         type: 3}
       propertyPath: maxSpawnDelay
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
