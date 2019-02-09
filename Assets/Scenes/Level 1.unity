@@ -189,6 +189,12 @@ PrefabInstance:
       propertyPath: maxSpawnDelay
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
+        type: 3}
+      propertyPath: attackerPrefab
+      value: 
+      objectReference: {fileID: 312952567347491380, guid: 421da232f4274cf4e998c8b677b9f653,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
 --- !u!4 &297460989 stripped
@@ -618,6 +624,12 @@ PrefabInstance:
       propertyPath: maxSpawnDelay
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7657742901839055156, guid: 328d7ad57fa72fa429bcad314b26da9e,
+        type: 3}
+      propertyPath: attackerPrefab
+      value: 
+      objectReference: {fileID: 312952567347491380, guid: 421da232f4274cf4e998c8b677b9f653,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 328d7ad57fa72fa429bcad314b26da9e, type: 3}
 --- !u!1 &780906378

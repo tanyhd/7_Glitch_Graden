@@ -1,31 +1,35 @@
 fileFormatVersion: 2
-guid: e2d62a04b51ecbf449b8590a36486d82
+guid: 9c628b1332aadb746bc18cbbc63138bd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Fox Walking_0
-    21300002: Fox Walking_1
-    21300004: Fox Walking_2
-    21300006: Fox Walking_3
-    21300008: Fox Walking_4
-    21300010: Fox Walking_5
-    21300012: Fox Walking_6
-    21300014: Fox Walking_7
-    21300016: Fox Walking_8
-    21300018: Fox Walking_9
-    21300020: Fox Walking_10
-    21300022: Fox Walking_11
-    21300024: Fox Walking_12
-    21300026: Fox Walking_13
-    21300028: Fox Walking_14
-    21300030: Fox Walking_15
-    21300032: Fox Walking_16
-    21300034: Fox Walking_17
-    21300036: Fox Walking_18
-    21300038: Fox Walking_19
-    21300040: Fox Walking_20
-    21300042: Fox Walking_21
-    21300044: Fox Walking_22
-    21300046: Fox Walking_23
+    21300000: Fox Jump_0
+    21300002: Fox Jump_1
+    21300004: Fox Jump_2
+    21300006: Fox Jump_3
+    21300008: Fox Jump_4
+    21300010: Fox Jump_5
+    21300012: Fox Jump_6
+    21300014: Fox Jump_7
+    21300016: Fox Jump_8
+    21300018: Fox Jump_9
+    21300020: Fox Jump_10
+    21300022: Fox Jump_11
+    21300024: Fox Jump_12
+    21300026: Fox Jump_13
+    21300028: Fox Jump_14
+    21300030: Fox Jump_15
+    21300032: Fox Jump_16
+    21300034: Fox Jump_17
+    21300036: Fox Jump_18
+    21300038: Fox Jump_19
+    21300040: Fox Jump_20
+    21300042: Fox Jump_21
+    21300044: Fox Jump_22
+    21300046: Fox Jump_23
+    21300048: Fox Jump_24
+    21300050: Fox Jump_25
+    21300052: Fox Jump_26
+    21300054: Fox Jump_27
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -130,7 +134,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fox Walking_0
+      name: Fox Jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aee961baaf5fa4bbece9bdbc3b3166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox Jump_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 556
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c2b85976f7faf43b9b254616acbe22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox Jump_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 556
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e055867c3d4d7e74f8e04494acd4e318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox Jump_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 556
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b45b5bab342ff429e6565caafa005b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox Jump_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 556
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17d847d7b4fb044c86ca62b1f123ef5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox Jump_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 556
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2fba537f7c2f4bbb0db0279bffb4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox Jump_6
       rect:
         serializedVersion: 2
         x: 0
@@ -144,13 +268,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25fbf0b948380c4bad30681da622c7a
+      spriteID: f18a954984607df49861c16d521f2546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_1
+      name: Fox Jump_7
       rect:
         serializedVersion: 2
         x: 153
@@ -164,13 +288,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05a554ba7dafab74597aaddede99408c
+      spriteID: fab4c5462a9fd4a4fa202f9e95b7ae87
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_2
+      name: Fox Jump_8
       rect:
         serializedVersion: 2
         x: 306
@@ -184,13 +308,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86c5b9908566ca841853bafc74b9aeeb
+      spriteID: 0176a1b7ab02fc048a7bdc9b1c4465b6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_3
+      name: Fox Jump_9
       rect:
         serializedVersion: 2
         x: 459
@@ -204,13 +328,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bbff1bf06a0130469b82741a3547b26
+      spriteID: 21dda1d4623e08945b950c9a50516cc7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_4
+      name: Fox Jump_10
       rect:
         serializedVersion: 2
         x: 612
@@ -224,13 +348,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c58c7d5bebd18e241a9648d4ba5c2b34
+      spriteID: daa5c646e84883140b434dff9eda6886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_5
+      name: Fox Jump_11
       rect:
         serializedVersion: 2
         x: 765
@@ -244,16 +368,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc8bb1b14256f940956297fee942ecc
+      spriteID: 68edfaa887c693648af1252f203f9842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_6
+      name: Fox Jump_12
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 278
         width: 153
         height: 139
@@ -264,13 +388,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520fb97e88c402f48ab03f1bcca22144
+      spriteID: c2c71f314e84c4c4ebfef8ab898a71e7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_7
+      name: Fox Jump_13
       rect:
         serializedVersion: 2
         x: 153
@@ -284,13 +408,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bccb7c55d6b26f24f94ac08312a7114c
+      spriteID: 7056c7459662b3a4d8664263eb214e8b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_8
+      name: Fox Jump_14
       rect:
         serializedVersion: 2
         x: 306
@@ -304,13 +428,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06e5a2ea2b01fd84dba10545d87201ab
+      spriteID: 23e53b5a51a57aa4a808e911f52cd5a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_9
+      name: Fox Jump_15
       rect:
         serializedVersion: 2
         x: 459
@@ -324,13 +448,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fab2f28b8993ff845b52c61365ac141d
+      spriteID: 17358b3e32904204b9079ab0dc71431b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_10
+      name: Fox Jump_16
       rect:
         serializedVersion: 2
         x: 612
@@ -344,13 +468,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 461c5e9df5a958a44acd64e0f897f3e4
+      spriteID: 999ae22310553224bb071dd653bd10d3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_11
+      name: Fox Jump_17
       rect:
         serializedVersion: 2
         x: 765
@@ -364,13 +488,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b063cf2ae3dae2f4b9c06e37894a38ae
+      spriteID: 7f3106f81d44ce4418261fc8bf10ff4c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_12
+      name: Fox Jump_18
       rect:
         serializedVersion: 2
         x: 0
@@ -384,13 +508,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e1b45257056ab84e9719979c7824eba
+      spriteID: 639cbdc7f00afda42957ce6ffd71eccf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_13
+      name: Fox Jump_19
       rect:
         serializedVersion: 2
         x: 153
@@ -404,13 +528,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67f190551b5e0d41b54f0ac8318eaff
+      spriteID: 09e7528f9f4abac4e9895d1ad15f0b97
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_14
+      name: Fox Jump_20
       rect:
         serializedVersion: 2
         x: 306
@@ -424,13 +548,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a865482864f5ca48ad7df494c84e365
+      spriteID: a48a5261a4ae35e4298da6f0480aa4a2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_15
+      name: Fox Jump_21
       rect:
         serializedVersion: 2
         x: 459
@@ -444,13 +568,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7be596580076514449bc4d6fc945b9a2
+      spriteID: 3409fae63fdbd2c47b52340b7f9a6f52
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_16
+      name: Fox Jump_22
       rect:
         serializedVersion: 2
         x: 612
@@ -464,13 +588,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b930159668b138a4388c7df00291221d
+      spriteID: 83283bc4eb521ef4fb02cc27b64e9fbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_17
+      name: Fox Jump_23
       rect:
         serializedVersion: 2
         x: 765
@@ -484,13 +608,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 322852ad01258c44da2813668375918f
+      spriteID: e648f27c71c3bf7449473ae58623e91f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_18
+      name: Fox Jump_24
       rect:
         serializedVersion: 2
         x: 0
@@ -504,13 +628,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adc64fd2e5c03a5448f97c545139f2a3
+      spriteID: 34cec9606d98e7b409a3d6bc5ea2fab1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_19
+      name: Fox Jump_25
       rect:
         serializedVersion: 2
         x: 153
@@ -524,13 +648,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acf7fb9bdb30ae54e9449ceadcbf385f
+      spriteID: cf365a37d1b728d4c8781ba7bb532528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_20
+      name: Fox Jump_26
       rect:
         serializedVersion: 2
         x: 306
@@ -544,13 +668,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767a1525fdd0b274b9fa7fbd0db7544c
+      spriteID: 7e7aa9ee845b49542a8bca900daf9495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_21
+      name: Fox Jump_27
       rect:
         serializedVersion: 2
         x: 459
@@ -564,47 +688,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bea2e7a42550f30468682c114ed0ddcd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Walking_22
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 0
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffb7dc5f9dd05fa428d23a35a6396542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Walking_23
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 0
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a57b371933cdbc4c840590c8444ee40
+      spriteID: 08a2fc1c9a555b34182c617fe4013ea2
       vertices: []
       indices: 
       edges: []
@@ -612,7 +696,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bc64986438f344247ba5d5643e0feaf8
+    spriteID: e059ae4424f231c45ad1466373603c6f
     vertices: []
     indices: 
     edges: []
