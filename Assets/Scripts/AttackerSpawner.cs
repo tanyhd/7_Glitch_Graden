@@ -14,7 +14,6 @@ public class AttackerSpawner : MonoBehaviour
 
     IEnumerator Start()
     {
-        
         while (spawn)
         {
             yield return new WaitForSeconds(Random.Range(minSpawnDelay,maxSpawnDelay));
@@ -32,5 +31,10 @@ public class AttackerSpawner : MonoBehaviour
     {
         Attacker newAttacker = Instantiate(myAttacker, transform.position, Quaternion.identity) as Attacker;
         newAttacker.transform.parent = transform;
+    }
+
+    public void StopSpawning()
+    {
+        spawn = false;
     }
 }
