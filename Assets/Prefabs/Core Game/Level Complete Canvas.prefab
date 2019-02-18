@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 1697905963336251726}
   - component: {fileID: 4530563183947901013}
   m_Layer: 5
-  m_Name: Level Coimplete Canvas
+  m_Name: Level Complete Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

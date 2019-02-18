@@ -10,12 +10,9 @@ public class LivesDisplay : MonoBehaviour
     Text livesText;
     [SerializeField] int damage = 1;
 
-    LevelLoader levelLoader;
-
     // Start is called before the first frame update
     void Start()
     {
-        levelLoader = FindObjectOfType<LevelLoader>();
         livesText = GetComponent<Text>();
         UpdateDisplay();
     }
@@ -32,7 +29,7 @@ public class LivesDisplay : MonoBehaviour
         UpdateDisplay();
         if (lives <= 0)
         {
-            levelLoader.LoadLoseScene();
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
     }
 }

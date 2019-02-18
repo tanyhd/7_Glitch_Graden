@@ -6,6 +6,7 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
     [SerializeField] GameObject winLabel;
+    [SerializeField] GameObject loseLabel;
     [SerializeField] float waitToLoad = 3;
 
     int numberOfAttackers = 0;
@@ -15,12 +16,13 @@ public class LevelController : MonoBehaviour
     void Start()
     {
         winLabel.SetActive(false);
+        loseLabel.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Current Number of attackers =" + numberOfAttackers);
+        //Debug.Log("Current Number of attackers =" + numberOfAttackers);
     }
 
     public void AttackerSpawn()
@@ -58,5 +60,11 @@ public class LevelController : MonoBehaviour
         GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(waitToLoad);
         GetComponent<LevelLoader>().LoadNextScene();
+    }
+
+    public void HandleLoseCondition()
+    {
+        loseLabel.SetActive(true);
+        Time.timeScale = 0;
     }
 }
