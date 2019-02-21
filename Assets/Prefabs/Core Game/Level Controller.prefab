@@ -45,10 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a36e1393b3612c4697462a38a1db21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winLabel: {fileID: 8917085369680496296, guid: 486f9864e3dd0b64181c204ab6711854,
-    type: 3}
-  loseLabel: {fileID: 8199277154726227539, guid: 609094c777beb274da33370a23203d54,
-    type: 3}
+  winLabel: {fileID: 0}
+  loseLabel: {fileID: 0}
   waitToLoad: 3
 --- !u!114 &6938816240815366302
 MonoBehaviour:

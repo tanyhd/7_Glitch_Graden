@@ -1430,6 +1430,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Lose Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8199277154726227539, guid: 609094c777beb274da33370a23203d54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6025557955586054514, guid: 609094c777beb274da33370a23203d54,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1535,12 +1540,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1837041085046045794, guid: 609094c777beb274da33370a23203d54,
+    - target: {fileID: 1863780320535307574, guid: 609094c777beb274da33370a23203d54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 8111178767083492640}
-    - target: {fileID: 1863780320535307574, guid: 609094c777beb274da33370a23203d54,
+    - target: {fileID: 1837041085046045794, guid: 609094c777beb274da33370a23203d54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1706,6 +1711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Complete Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8917085369680496296, guid: 486f9864e3dd0b64181c204ab6711854,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6054044979812123300, guid: 486f9864e3dd0b64181c204ab6711854,
         type: 3}
