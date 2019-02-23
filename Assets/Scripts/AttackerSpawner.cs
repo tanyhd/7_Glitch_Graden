@@ -9,8 +9,19 @@ public class AttackerSpawner : MonoBehaviour
     [SerializeField] float maxSpawnDelay = 5f;
 
     [SerializeField] Attacker[] attackersPrefabArray;
+    
+    //float difficultyfactor;
+    /*void Awake()
+    {
+        difficultyfactor = 1 - PlayerPrefsController.GetDifficulty();
+        if (difficultyfactor == 0)
+        {
+            difficultyfactor = 0.99f;
+        }
+        minSpawnDelay *= difficultyfactor;
+        maxSpawnDelay *= difficultyfactor;
+    } */
 
-    // Start is called before the first frame update
 
     IEnumerator Start()
     {
