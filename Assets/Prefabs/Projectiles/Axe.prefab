@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpeed: 2.5
   rotateSpeed: 500
-  projectileDamage: 100
+  projectileDamage: 200
   spike: 0
 --- !u!50 &9024670367445532303
 Rigidbody2D:
